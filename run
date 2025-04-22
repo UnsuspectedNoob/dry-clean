@@ -1,0 +1,16 @@
+#!/bin/bash
+
+gcc -g ../lcgrand.c ../simlib.c ./dryclean.c -lm -o main
+echo "10.0 720.0" >./dryclean.in
+./main
+cat ./dryclean.out >./10-minute-interarrival-report
+
+echo "5.0 720.0" >./dryclean.in
+./main
+cat ./dryclean.out >./5-minute-interarrival-report
+
+echo "2.5 720.0" >./dryclean.in
+./main
+cat ./dryclean.out >./2_5-minute-interarrival-report
+
+cat ./10-minute-interarrival-report ./5-minute-interarrival-report ./2_5-minute-interarrival-report
