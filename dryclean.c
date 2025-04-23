@@ -268,8 +268,8 @@ void reassembly(void) {
 
     transfer[ATTR_DAMAGE_FLAG] = damage;
 
-    /* A service time is chosen, based on if at least one of the suit pieces has
-     * been damaged. */
+    /* A service time is chosen, based on at least one of the suit pieces
+     * being damaged. */
     double svc_time = damage ? expon(SERVICE_DAMAGED, STREAM_S4_DAMAGED)
                              : expon(SERVICE_UNDAMAGED, STREAM_S4_UNDAMAGED);
 
