@@ -4,7 +4,7 @@
                Dry-cleaning System Simulation Report     
        --------------------------------------------------
 
-Mean interarrival time: 2.50 minutes
+Mean interarrival time: 5.00 minutes
 Simulation duration: 720.00 minutes
 
 System Time for Suits, Undamaged(1) and Damaged(2):
@@ -15,9 +15,9 @@ variable                         of
  number       Average          values           Maximum         Minimum
 ________________________________________________________________________
 
-    1         273.545          93.0000          484.056          23.7660 
+    1         170.569          93.0000          276.723          22.0273 
 
-    2         331.073          16.0000          493.805          41.0359 
+    2         201.116          16.0000          281.733          29.3337 
 ________________________________________________________________________
 
 
@@ -26,20 +26,20 @@ Queue Lengths and Server Utilization:
 --------------------------------------
 
 Queue Statistics:
-S1_Q               | Avg: 97.585 | Max: 164
-S2_Q               | Avg:  0.681 | Max: 8
-S3_Q               | Avg:  1.506 | Max: 8
-Jacket_Q (S4_JQ)   | Avg:  4.419 | Max: 15
-Pants_Q (S4_PQ)    | Avg:  3.451 | Max: 13
+S1_Q               | Avg: 27.832 | Max: 48
+S2_Q               | Avg:  0.675 | Max: 8
+S3_Q               | Avg:  1.486 | Max: 8
+Jacket_Q (S4_JQ)   | Avg:  4.325 | Max: 15
+Pants_Q (S4_PQ)    | Avg:  3.368 | Max: 12
 S5_Q               | Avg:  0.011 | Max: 1
 
 Server Utilization (Avg should be ≤ 1):
-Server 1           | Avg:  0.999 | Max: 1
-Server 2           | Avg:  0.582 | Max: 1
-Server 3           | Avg:  0.726 | Max: 1
-Server 4           | Avg:  0.793 | Max: 1
+Server 1           | Avg:  0.993 | Max: 1
+Server 2           | Avg:  0.576 | Max: 1
+Server 3           | Avg:  0.722 | Max: 1
+Server 4           | Avg:  0.787 | Max: 1
 Server 5           | Avg:  0.173 | Max: 1
 
-Total suits accepted into system: 288
+Total suits accepted into system: 157
 Total suits successfully processed: 109
 Simulation ended at time: 720.00 minutes
